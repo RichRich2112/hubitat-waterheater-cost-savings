@@ -13,7 +13,7 @@ Commercial 40-Amp Z-Wave smart switches can easily cost $100 or more. This setup
 ### Hardware Gallery
 | Enclosure Exterior | Gutted Enclosure & Relay Wiring | Control Switch Integration |
 | :---: | :---: | :---: |
-| ![Enclosure Front](IMG_9637.jpg) | ![Contactor Internal Wiring](IMG_9638.jpg) | ![In-Wall Z-Wave Switch](IMG_9639.jpg) |
+| ![Enclosure Front](IMG_9637.JPG) | ![Contactor Internal Wiring](IMG_9638.JPG) | ![In-Wall Z-Wave Switch](IMG_9639.JPG) |
 
 ### How It Works & Wiring Concept
 1. **The Enclosure:** A classic Intermatic "Little Gray Box" electric water heater timer was gutted, removing the mechanical clock dial while retaining the rugged, code-compliant metal chassis.
