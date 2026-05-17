@@ -1,6 +1,6 @@
 # Hubitat Water Heater & Holiday Management Suite
 
-An advanced, local-first automation suite designed for Hubitat Elevation to optimize heavy-load water heaters against time-of-use (TOU) electrical plans (specifically tailored for utility plans like Arizona Public Service - APS). 
+An advanced, local-first automation suite designed for Hubitat Elevation to optimize heavy-load water heaters against time-of-use (TOU) electrical plans. 
 
 This repository contains both the software automation logic and a cost-effective, heavy-duty hardware blueprint utilizing a custom-built Z-Wave contactor enclosure.
 
