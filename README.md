@@ -8,7 +8,7 @@ This repository contains both the software automation logic and a cost-effective
 
 ## 🛠️ Hardware Implementation: The "Poor Man's" Heavy-Duty Z-Wave Switch
 
-Commercial 40-Amp Z-Wave smart switches can easily cost $100 or more. This setup achieves the exact same industrial-grade performance for a fraction of the cost by retrofitting a classic Intermatic mechanical timer enclosure with a dedicated contactor and a standard 120V Z-Wave switch. Any old electrical box with enough space will work though.
+Commercial 40-Amp Z-Wave smart switches can easily cost $100 or more. This setup achieves the exact same industrial-grade performance for a fraction of the cost by retrofitting a classic Intermatic mechanical timer enclosure with a dedicated 240V contactor and a standard 120V Z-Wave switch. Any old electrical box with enough space will work though.
 
 ### Hardware Gallery
 | Enclosure Exterior | Gutted Enclosure & Relay Wiring | Control Switch Integration |
@@ -17,9 +17,9 @@ Commercial 40-Amp Z-Wave smart switches can easily cost $100 or more. This setup
 
 ### How It Works & Wiring Concept
 1. **The Enclosure:** A classic Intermatic "Little Gray Box" electric water heater timer was gutted, removing the mechanical clock dial while retaining the rugged, code-compliant metal chassis.
-2. **The Contactor:** An industrial-grade **240V dual-pole contactor** is mounted inside the box to safely interrupt both hot lines (L1 and L2) feeding the heavy resistive load of the water heater. https://www.amazon.com/dp/B004Z0RLL2?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3
-3. **The 120V Switching Logic:** Instead of using an expensive high-amperage smart switch, the contactor's internal coil is energized using a standard **120V circuit managed by an in-wall Z-Wave smart switch** (located below the enclosure). 
-4. **Status Indicator:** A custom 120V LED pilot light is drilled and tapped into the side of the metal chassis, wired in parallel with the contactor coil to provide an immediate, physical visual confirmation when the water heater elements are actively powered.
+2. **The Contactor:** An industrial-grade **240V dual-pole contactor with 1210V coil** is mounted inside the box to safely interrupt both hot lines (L1 and L2) feeding the heavy resistive load of the water heater. https://www.amazon.com/dp/B004Z0RLL2?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3
+3. **The 120V Switching Logic:** Instead of using an expensive high-amperage smart switch, the contactor's internal 120V coil is energized using a standard **120V circuit managed by an in-wall Z-Wave smart switch** (located below the enclosure). You can use this switch to manually turn the water heater on and off too.
+4. **Status Indicator:** A custom 120V LED pilot light is drilled and tapped into the side of the metal chassis, wired in parallel with the contactor coil to provide an immediate visual confirmation when the water heater elements are actively powered.
 
 *This decoupling of control logic (120V Z-Wave Switch) from the heavy load management (240V Contactor) ensures maximum hardware longevity and cost savings.*
 
